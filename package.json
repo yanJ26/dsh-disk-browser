@@ -1,0 +1,29 @@
+{
+  "name": "dsh-disk-browser",
+  "version": "0.2.0",
+  "description": "DSH sidebar button to browse server disk folders (including hidden ones) with file preview.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "author": {
+    "name": "yanJ26",
+    "email": "yanj.rvs@gmail.com"
+  }
+}

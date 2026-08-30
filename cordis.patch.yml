@@ -1,0 +1,4 @@
+# dsh-disk-browser: insert the plugin row into the profile composition.
+- insert:
+    - id: disk-browser
+      name: 'dsh-disk-browser'
