@@ -1,6 +1,6 @@
 {
   "name": "dsh-disk-browser",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "DSH sidebar button to browse server disk folders (including hidden ones) with text and image preview.",
   "license": "MIT",
   "type": "module",
